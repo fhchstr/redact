@@ -1,0 +1,5 @@
+# Both secrets are substituted by the same placeholder
+db01.internal.domain = DB
+db02.internal.domain = DB
+
+proxy.other.internal.domain = Proxy

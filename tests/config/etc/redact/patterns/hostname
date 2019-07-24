@@ -1,0 +1,3 @@
+# The secret is the whole regular expression
+\S+\.internal\.domain
+\S+\.other\.internal\.domain

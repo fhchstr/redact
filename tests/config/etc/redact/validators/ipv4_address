@@ -1,0 +1,12 @@
+#!/usr/bin/env python2
+import socket
+import sys
+
+try:
+    input = sys.argv[1]
+    socket.inet_aton(input)
+    if input.count('.') != 3:
+        raise ValueError()
+    sys.exit(0)
+except Exception:
+    sys.exit(1)

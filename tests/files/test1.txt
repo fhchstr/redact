@@ -1,0 +1,10 @@
+2019-06-04T08:01:32+02:00 - app.internal.domain [INFO] user "alice": login successful from laptop-alice.internal.domain (10.10.0.3)
+2019-06-04T08:02:15+02:00 - app.internal.domain [INFO] alice uploded new file test.txt
+2019-06-04T08:02:15+02:00 - app.internal.domain [INFO] test.txt stored on db01.internal.domain
+2019-06-04T08:05:12+02:00 - app.internal.domain [INFO] user "bob": login failed from laptop-bob.internal.domain (10.10.0.30)
+2019-06-04T08:11:01+02:00 - app.internal.domain [INFO] user "alice": logout
+2019-06-04T08:12:05+02:00 - app.internal.domain [INFO] user "bob": login failed from workstation-bob.other.internal.domain (10.10.1.5)
+2019-06-04T08:12:35+02:00 - app.internal.domain [INFO] user "bob": login successful workstation-bob.other.internal.domain (10.10.1.5)
+2019-06-04T08:12:51+02:00 - app.internal.domain [INFO] bob uploded new file capture_10.10.1.15.pcap
+2019-06-04T08:12:51+02:00 - app.internal.domain [INFO] capture_10.10.1.15.pcap stored on db02.internal.domain
+2019-06-04T08:13:07+02:00 - app.internal.domain [INFO] user "bob": logout

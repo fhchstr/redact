@@ -1,0 +1,3 @@
+# We use a naive regular expression and use the validator script to make sure
+# it's a valid IPv4 address
+\d+\.\d+\.\d+\.\d+

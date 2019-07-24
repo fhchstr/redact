@@ -1,0 +1,4 @@
+# Let's imagine we know that's the first line in which a username is written.
+# Once identified, all future occurrences of that username (even in the lines
+# not matching this regex) will be replaced by the corresponding placeholder.
+user "(.+)": login (?:successful|failed)
